@@ -12,10 +12,26 @@ export default function App() {
 			<Logo />
 
 			<ButtonGroup>
-				<LinkButton href="https://soundcloud.com/anixmusicbe">SoundCloud</LinkButton>
-				<LinkButton href="https://www.instagram.com/anixmusicbe">Instagram</LinkButton>
-				<LinkButton href="https://www.youtube.com/@anixmusicbe">YouTube</LinkButton>
-				{/* <LinkButton href="https://vi.be/platform/anix">Vi.be</LinkButton> */}
+				<LinkButton href="https://soundcloud.com/anixmusicbe">
+					<img className="size-6" src="https://unpkg.com/simple-icons@v15/icons/soundcloud.svg" />
+					<span>Soundcloud</span>
+				</LinkButton>
+				<LinkButton href="https://www.instagram.com/anixmusicbe">
+					<img className="size-4" src="https://unpkg.com/simple-icons@v15/icons/instagram.svg" />
+					<span>Instagram</span>
+				</LinkButton>
+				<LinkButton href="https://www.tiktok.com/@anixmusicbe">
+					<img className="size-4" src="https://unpkg.com/simple-icons@v15/icons/tiktok.svg" />
+					<span>Tiktok</span>
+				</LinkButton>
+				{/* <LinkButton href="https://www.youtube.com/@anixmusicbe">
+					<img className="size-5" src="https://unpkg.com/simple-icons@v15/icons/youtube.svg" />
+					<span>YouTube</span>
+				</LinkButton> */}
+				{/* <LinkButton href="https://anix.be">
+					<img className="size-4" src="https://unpkg.com/simple-icons@v15/icons/website.svg" />
+					<span>Website</span>
+				</LinkButton> */}
 			</ButtonGroup>
 		</div>
 	}
