@@ -1,13 +1,3 @@
-import type { ReactNode } from "react";
-
-const CDJ_3000X_WIDTH_MM = 34460;
-const DJM_A9_WIDTH_MM = 40740;
-
-const M = (props: { children: ReactNode }) => {
-	return <span className="text-red-500">
-		{props.children}
-	</span>
-}
 
 export default function HospitalityRider() {
 
