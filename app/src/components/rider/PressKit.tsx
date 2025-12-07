@@ -72,11 +72,11 @@ export default function PressKit() {
 			<div className="text-xl font-snasm">Logo</div>
 
 			<div className="grid grid-cols-2 gap-1">
-				<div className="w-full aspect-video bg-slate-950 p-32">
-					<img src="/public/logo/anix-white.svg" alt="Anix" className="w-full h-full object-contain" />
+				<div className="w-full aspect-video bg-slate-950 flex items-center justify-center">
+					<img src="/public/logo/anix-white.svg" alt="Anix" className="w-[30%] h-full object-contain" />
 				</div>
-				<div className="w-full aspect-video bg-slate-50 p-32">
-					<img src="/public/logo/anix-black.svg" alt="Anix" className="w-full h-full object-contain" />
+				<div className="w-full aspect-video bg-slate-50 flex items-center justify-center">
+					<img src="/public/logo/anix-black.svg" alt="Anix" className="w-[30%] h-full object-contain" />
 				</div>
 			</div>
 		</div>
