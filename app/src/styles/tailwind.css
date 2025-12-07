@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Snasm";
+  src: url("/fonts/SnasmFont/SnasmRegular/font.woff2") format("woff2"),
+       url("/fonts/SnasmFont/SnasmRegular/font.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-snasm: "Snasm", sans-serif;
+}
