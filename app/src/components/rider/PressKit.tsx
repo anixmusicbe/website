@@ -58,13 +58,13 @@ export default function PressKit() {
 			<div className="text-xl font-snasm">Press pictures</div>
 
 			<div className="grid grid-cols-3 gap-1">
-				<img src="/public/press/2025/DSC01999.jpg" alt="Press picture 1" className="w-full h-full object-cover" />
-				<img src="/public/press/2025/DSC02018.jpg" alt="Press picture 2" className="w-full h-full object-cover" />
-				<img src="/public/press/2025/DSC02020.jpg" alt="Press picture 3" className="w-full h-full object-cover" />
+				<img src="/press/2025/DSC01999.jpg" alt="Press picture 1" className="w-full h-full object-cover" />
+				<img src="/press/2025/DSC02018.jpg" alt="Press picture 2" className="w-full h-full object-cover" />
+				<img src="/press/2025/DSC02020.jpg" alt="Press picture 3" className="w-full h-full object-cover" />
 
-				<img src="/public/press/2025/no-bg/DSC01999.png" alt="Press picture 1 - No background" className="bg-slate-50 w-full h-full object-cover" />
-				<img src="/public/press/2025/no-bg/DSC02018.png" alt="Press picture 2 - No background" className="bg-slate-50 w-full h-full object-cover" />
-				<img src="/public/press/2025/no-bg/DSC02020.png" alt="Press picture 3 - No background" className="bg-slate-50 w-full h-full object-cover" />
+				<img src="/press/2025/no-bg/DSC01999.png" alt="Press picture 1 - No background" className="bg-slate-50 w-full h-full object-cover" />
+				<img src="/press/2025/no-bg/DSC02018.png" alt="Press picture 2 - No background" className="bg-slate-50 w-full h-full object-cover" />
+				<img src="/press/2025/no-bg/DSC02020.png" alt="Press picture 3 - No background" className="bg-slate-50 w-full h-full object-cover" />
 			</div>
 		</div>
 
@@ -73,10 +73,10 @@ export default function PressKit() {
 
 			<div className="grid grid-cols-2 gap-1">
 				<div className="w-full aspect-video bg-slate-950 flex items-center justify-center">
-					<img src="/public/logo/anix-white.svg" alt="Anix" className="w-[30%] h-full object-contain" />
+					<img src="/logo/anix-white.svg" alt="Anix" className="w-[30%] h-full object-contain" />
 				</div>
 				<div className="w-full aspect-video bg-slate-50 flex items-center justify-center">
-					<img src="/public/logo/anix-black.svg" alt="Anix" className="w-[30%] h-full object-contain" />
+					<img src="/logo/anix-black.svg" alt="Anix" className="w-[30%] h-full object-contain" />
 				</div>
 			</div>
 		</div>

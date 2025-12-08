@@ -60,19 +60,19 @@ export default function TechnicalRider() {
 			<div className="@container">
 				<div className="grid gap-0.5 pt-[2.6cqw] pb-[2.6cqw]" style={{ gridTemplateColumns: `${CDJ_3000X_WIDTH_MM}fr ${CDJ_3000X_WIDTH_MM}fr ${DJM_A9_WIDTH_MM}fr ${CDJ_3000X_WIDTH_MM}fr ${CDJ_3000X_WIDTH_MM}fr` }}>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
+						<img src="/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
+						<img src="/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/djm-a9/DJM-A9-cgi-top-pc.png" alt="Top view" className="h-full object-contain relative top-[0.925cqw]" style={{ scale: 1.68 }} />
+						<img src="/gear/djm-a9/DJM-A9-cgi-top-pc.png" alt="Top view" className="h-full object-contain relative top-[0.925cqw]" style={{ scale: 1.68 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
+						<img src="/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
+						<img src="/gear/cdj-3000x/spec_01.webp" alt="Top view" className="h-full object-contain relative -left-[0.025cqw]" style={{ scale: 1.77 }} />
 					</div>
 				</div>
 			</div>
@@ -84,19 +84,19 @@ export default function TechnicalRider() {
 			<div className="@container">
 				<div className="grid gap-0.5 -mt-[7cqw] -mb-[7.5cqw]" style={{ gridTemplateColumns: `${CDJ_3000X_WIDTH_MM}fr ${CDJ_3000X_WIDTH_MM}fr ${DJM_A9_WIDTH_MM}fr ${CDJ_3000X_WIDTH_MM}fr ${CDJ_3000X_WIDTH_MM}fr` }}>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
+						<img src="/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
+						<img src="/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/djm-a9/DJM-A9-cgi-rear-pc.png" alt="Top view" className="h-full object-contain relative -top-[0.25cqw]" style={{ scale: 1.1 }} />
+						<img src="/gear/djm-a9/DJM-A9-cgi-rear-pc.png" alt="Top view" className="h-full object-contain relative -top-[0.25cqw]" style={{ scale: 1.1 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
+						<img src="/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
 					</div>
 					<div className="">
-						<img src="/public/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
+						<img src="/gear/cdj-3000x/spec_05.webp" alt="Top view" className="h-full object-contain" style={{ scale: 1.3 }} />
 					</div>
 				</div>
 			</div>
