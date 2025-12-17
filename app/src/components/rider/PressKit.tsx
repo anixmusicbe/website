@@ -67,13 +67,13 @@ export default function PressKit() {
 			<div className="text-xl font-snasm">Press pictures</div>
 
 			<div className="grid grid-cols-3 gap-1">
-				<PressImage src="/press/2025/DSC01999.jpg" alt="Press picture 1" />
-				<PressImage src="/press/2025/DSC02018.jpg" alt="Press picture 2" />
-				<PressImage src="/press/2025/DSC02020.jpg" alt="Press picture 3" />
+				<PressImage src="/press/2025/DSC01999.jpg" alt="Anix - Press picture 1" />
+				<PressImage src="/press/2025/DSC02018.jpg" alt="Anix - Press picture 2" />
+				<PressImage src="/press/2025/DSC02020.jpg" alt="Anix - Press picture 3" />
 
-				<PressImage src="/press/2025/no-bg/DSC01999.png" alt="Press picture 1 - No background" />
-				<PressImage src="/press/2025/no-bg/DSC02018.png" alt="Press picture 2 - No background" />
-				<PressImage src="/press/2025/no-bg/DSC02020.png" alt="Press picture 3 - No background" />
+				<PressImage src="/press/2025/no-bg/DSC01999.png" alt="Anix - Press picture 1 - No background" />
+				<PressImage src="/press/2025/no-bg/DSC02018.png" alt="Anix - Press picture 2 - No background" />
+				<PressImage src="/press/2025/no-bg/DSC02020.png" alt="Anix - Press picture 3 - No background" />
 			</div>
 		</div>
 
@@ -82,10 +82,10 @@ export default function PressKit() {
 
 			<div className="grid grid-cols-2 gap-1">
 				<div className="w-full aspect-video bg-slate-950 flex items-center justify-center">
-					<PressImageLogo src="/logo/anix-white.svg" alt="Anix - White" />
+					<PressImageLogo src="/logo/anix-white.svg" alt="Anix - Logo - White" />
 				</div>
 				<div className="w-full aspect-video bg-slate-50 flex items-center justify-center">
-					<PressImageLogo src="/logo/anix-black.svg" alt="Anix - Black" />
+					<PressImageLogo src="/logo/anix-black.svg" alt="Anix - Logo - Black" />
 				</div>
 			</div>
 		</div>
