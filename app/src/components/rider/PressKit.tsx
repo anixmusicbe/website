@@ -1,6 +1,8 @@
 import { faInstagram, faSoundcloud, faTiktok, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { ReactNode } from "react";
+import { PressImage } from "../atoms/PressImage";
+import { PressImageLogo } from "../atoms/PressImageLogo";
 
 
 const M = (props: { children: ReactNode }) => {
@@ -55,16 +57,23 @@ export default function PressKit() {
 		</div>
 
 		<div className="flex flex-col gap-4">
+			<div className="text-xl font-snasm">Pronunciation</div>
+			<div className="flex flex-row gap-2 text-slate-400">
+				<audio src="/audio/anix-pronunciation.mp3" controls />
+			</div>
+		</div>
+
+		<div className="flex flex-col gap-4">
 			<div className="text-xl font-snasm">Press pictures</div>
 
 			<div className="grid grid-cols-3 gap-1">
-				<img src="/press/2025/DSC01999.jpg" alt="Press picture 1" className="w-full h-full object-cover" />
-				<img src="/press/2025/DSC02018.jpg" alt="Press picture 2" className="w-full h-full object-cover" />
-				<img src="/press/2025/DSC02020.jpg" alt="Press picture 3" className="w-full h-full object-cover" />
+				<PressImage src="/press/2025/DSC01999.jpg" alt="Press picture 1" />
+				<PressImage src="/press/2025/DSC02018.jpg" alt="Press picture 2" />
+				<PressImage src="/press/2025/DSC02020.jpg" alt="Press picture 3" />
 
-				<img src="/press/2025/no-bg/DSC01999.png" alt="Press picture 1 - No background" className="bg-slate-50 w-full h-full object-cover" />
-				<img src="/press/2025/no-bg/DSC02018.png" alt="Press picture 2 - No background" className="bg-slate-50 w-full h-full object-cover" />
-				<img src="/press/2025/no-bg/DSC02020.png" alt="Press picture 3 - No background" className="bg-slate-50 w-full h-full object-cover" />
+				<PressImage src="/press/2025/no-bg/DSC01999.png" alt="Press picture 1 - No background" />
+				<PressImage src="/press/2025/no-bg/DSC02018.png" alt="Press picture 2 - No background" />
+				<PressImage src="/press/2025/no-bg/DSC02020.png" alt="Press picture 3 - No background" />
 			</div>
 		</div>
 
@@ -73,10 +82,10 @@ export default function PressKit() {
 
 			<div className="grid grid-cols-2 gap-1">
 				<div className="w-full aspect-video bg-slate-950 flex items-center justify-center">
-					<img src="/logo/anix-white.svg" alt="Anix" className="w-[30%] h-full object-contain" />
+					<PressImageLogo src="/logo/anix-white.svg" alt="Anix - White" />
 				</div>
 				<div className="w-full aspect-video bg-slate-50 flex items-center justify-center">
-					<img src="/logo/anix-black.svg" alt="Anix" className="w-[30%] h-full object-contain" />
+					<PressImageLogo src="/logo/anix-black.svg" alt="Anix - Black" />
 				</div>
 			</div>
 		</div>
